@@ -10,18 +10,32 @@
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="http://localhost:55334/order"
           target="_blank"
           class="button--green"
         >
-          Documentation
+          注文画面
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="http://localhost:55334/drink"
           target="_blank"
           class="button--grey"
         >
-          GitHub
+          ドリンクメニュー登録
+        </a>
+        <a
+          href="http://localhost:55334/food"
+          target="_blank"
+          class="button--grey"
+        >
+          フードメニュー登録
+        </a>
+        <a
+          href="http://localhost:55334/other"
+          target="_blank"
+          class="button--grey"
+        >
+          セットメニュー登録
         </a>
       </div>
     </div>
