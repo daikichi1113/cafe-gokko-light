@@ -22,7 +22,34 @@ Firebase<br>
 企画時はlarabelをサーバー側のAPIとして用いたSSRを予定していたがことが、理解度が低く連携がうまくいかなかったため、Firebaseを用いたSPAに切り替えた。
 
 # データベース設計
+## menuDataテーブル(注文用)
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|price|integer|null: false|
+|counter|integer|null: false|
+|tableNumber|integer|null: false|
 
+## drinkDataテーブル（登録用）
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|price|integer|null: false|
+|image|string|null: false|
+
+## foodDataテーブル（登録用）
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|price|integer|null: false|
+|image|string|null: false|
+
+## setDataテーブル（登録用）
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null: false|
+|price|integer|null: false|
+|image|string|null: false|
 
 # 今後の修正点
 ## laravelとの連携
