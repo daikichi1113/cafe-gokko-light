@@ -12,10 +12,6 @@
       <div class="drink">
         <h3>ドリンクメニュー</h3>
         <ul>
-          <!-- <li v-for="drink in drinks" :key="drink.id">
-            <p>{{ drink.name }}</p>
-            <p>{{ drink.price }}円</p>
-          </li> -->
           <li>
             <img src="~/assets/hotcoffe.jpg" width="200" height="200">
             <p>ホットコーヒー</p>
@@ -118,9 +114,9 @@
 </template>
 
 <script>
-export default {
+  export default {
   
-}
+  }
 </script>
 
 <style>

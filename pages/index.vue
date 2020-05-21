@@ -17,21 +17,21 @@
           注文画面
         </a>
         <a
-          href="http://localhost:55334/drink"
+          href="http://localhost:55334/drinkRegistration"
           target="_blank"
           class="button--grey"
         >
           ドリンクメニュー登録
         </a>
         <a
-          href="http://localhost:55334/food"
+          href="http://localhost:55334/foodRegistration"
           target="_blank"
           class="button--grey"
         >
           フードメニュー登録
         </a>
         <a
-          href="http://localhost:55334/other"
+          href="http://localhost:55334/otherRegistration"
           target="_blank"
           class="button--grey"
         >

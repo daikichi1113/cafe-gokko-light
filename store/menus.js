@@ -12,11 +12,10 @@ export const actions = {
   init: firestoreAction(({ bindFirestoreRef }) => {
     bindFirestoreRef('menus', menusRef)
   }),
-  add: firestoreAction((context, [name, price]) => {
-    if(name.trim() && price.trim()) {
+  add: firestoreAction((context, [name]) => {
+    if(name.trim()) {
       menusRef.add({
         name: name,
-        price: price,
         created: firebase.firestore.FieldValue.serverTimestamp()
       })
     }
