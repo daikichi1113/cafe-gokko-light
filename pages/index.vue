@@ -10,7 +10,7 @@
       </h2>
       <div class="links">
         <a
-          href="http://localhost:55334/order"
+          href="http://localhost:55334/menu"
           target="_blank"
           class="button--green"
         >
